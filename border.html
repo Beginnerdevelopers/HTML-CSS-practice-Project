@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>My Website</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <style>
+      /* CSS for the header section */
+      header {
+        background-color: #333;
+        color: white;
+        text-align: center;
+        padding: 20px;
+      }
+
+      /* CSS for the navigation bar */
+      nav {
+        background-color: #ddd;
+        overflow: hidden;
+      }
+
+      nav a {
+        float: left;
+        display: block;
+        color: #333;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+      }
+
+      nav a:hover {
+        background-color: #555;
+        color: white;
+      }
+
+      /* CSS for the main content section */
+      section {
+        display: flex;
+        flex-wrap: wrap;
+        padding: 20px;
+        justify-content: center;
+      }
+
+      /* CSS for the cards in the main content section */
+      .card {
+        background-color: #fff;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+        transition: 0.3s;
+        width: 30%;
+        margin: 10px;
+        padding: 20px;
+        text-align: center;
+      }
+
+      .card:hover {
+        box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+      }
+
+      /* CSS for the footer section */
+      footer {
+        background-color: #333;
+        color: white;
+        text-align: center;
+        padding: 20px;
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>My Website</h1>
+      <p>Welcome to my website</p>
+    </header>
+
+    <nav>
+      <a href="#">Home</a>
+      <a href="#">About</a>
+      <a href="#">Contact</a>
+    </nav>
+
+    <section>
+      <div class="card">
+        <h2>Card 1</h2>
+        <p>This is the first card.</p>
+      </div>
+      <div class="card">
+        <h2>Card 2</h2>
+        <p>This is the second card.</p>
+      </div>
+      <div class="card">
+        <h2>Card 3</h2>
+        <p>This is the third card.</p>
+      </div>
+    </section>
+
+    <footer>
+      <p>My Website &copy; 2023</p>
+    </footer>
+  </body>
+</html>

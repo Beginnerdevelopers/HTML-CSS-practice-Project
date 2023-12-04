@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.form{
+    width: 200px;
+    height: 200px;
+    background-color: yellow;
+}
+#first{
+    background-color: red;
+}
+#label{
+    width: 200px;
+}
+#font{
+    font-family: 'Lora', serif; 
+    font-size: 2em;
+    font-variant: small-caps;
+font-style: italic;
+color: rgb(26, 18, 17);
+letter-spacing: 5 px;
+word-spacing: 5px;
+text-align:center;
+direction: ltr;
+text-decoration:yellowgreen;
+text-overflow:clip;
+text-shadow: yellow;
+text-indent: 2px;
+
+}

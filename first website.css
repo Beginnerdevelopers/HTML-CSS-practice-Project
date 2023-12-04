@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+header{
+    width: 100%;
+    height: 100vh;
+    background-image: url('ramzan.png');
+}
+.mainheader{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.mainheader .logo img{
+    width: 250px;
+    height: 100px;
+    padding: 20px;
+   
+}
+.mainheader nav{
+    width: 350px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.mainheader a{
+    text-decoration: none;
+    color: black;
+text-transform: uppercase;
+}
+.mainheader button{
+    padding: 10px 45px;
+    text-align: center;
+    columns: #fff;
+    border: none;
+    background-image: red;
+
+border-radius: 10px;
+
+}
+.manubutton{
+    margin: 30px;
+}
+main{
+    width: 100%;
+  
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+main .left{
+    margin-top: 205px;
+    padding-left: 50px;
+    font-size: 20px;
+    font-weight: lighter;
+}
+.left h1{
+    font-size: 40px;
+    font-weight: 100;
+    text-transform: capitalize;
+}
+.left button{
+    padding: 10px 45px;
+    text-align: center;
+    columns: #fff;
+    border: none;
+    background-image: red;
+
+border-radius: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

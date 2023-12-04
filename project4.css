@@ -1,0 +1,126 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,
+body {
+  height: 100%;
+  margin: 0;
+}
+.image1 {
+  background-image: url("image1.png");
+  min-height: 100%;
+}
+.image2 {
+  background-image: url("image2.png");
+  min-height: 400px;
+}
+.image3 {
+  background-image: url("image3.png");
+  min-height: 100%;
+}
+.image1,
+.image2,
+.image3 {
+  position: relative;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+.textedit {
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  text-align: center;
+  font-size: 30px;
+  text-transform: uppercase;
+}
+.bg {
+  background-color: black;
+  color: white;
+  padding: 20px;
+  border: 1;
+  border-radius: 30px;
+}
+.section_light {
+  padding-top: 20px;
+  padding-left: 150px;
+  padding-bottom: 30px;
+  padding-right: 150px;
+  justify-content: center;
+  word-spacing: 2px;
+  background-color: bisque;
+  letter-spacing: 1px;
+}
+.section_light h2 {
+  text-align: center;
+  color: red;
+  font-size: 30px;
+  padding-bottom: 20px;
+}
+.section_light p {
+  color: black;
+  font-size: 20px;
+}
+
+.section_two {
+  padding-top: 20px;
+  padding-left: 150px;
+  padding-bottom: 30px;
+  padding-right: 150px;
+  justify-content: center;
+  word-spacing: 2px;
+  background-color: black;
+  letter-spacing: 1px;
+}
+.section_two h2 {
+  text-align: center;
+  color: wheat;
+  font-size: 30px;
+  padding-bottom: 20px;
+}
+.section_two p {
+  color: white;
+  font-size: 20px;
+}
+
+.section_three {
+  padding-top: 20px;
+  padding-left: 150px;
+  padding-bottom: 30px;
+  padding-right: 150px;
+  justify-content: center;
+  word-spacing: 2px;
+  background-color: rgb(90, 79, 79);
+  letter-spacing: 1px;
+}
+.section_three h2 {
+  text-align: center;
+  color: wheat;
+  font-size: 30px;
+  padding-bottom: 20px;
+}
+.section_three p {
+  color: white;
+  font-size: 20px;
+}
+.bg {
+  background: #313534;
+  color: #fff;
+  padding: 20px;
+}
+.image1 nav {
+  width: 500px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.image1 a {
+  justify-content: space-between;
+  margin-top: 20px;
+  text-decoration: none;
+  color: black;
+  text-transform: uppercase;
+}
